@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import "@/style/globals.css";
 import '@mantine/core/styles.css';
 
@@ -25,9 +26,7 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript defaultColorScheme="light" />
       </head>
-      <body className={`${poppins.className} antialiased bg-white dark:bg-black text-black dark:text-white relative`}>
-
-      
+      <body className={`${poppins.className} antialiased bg-white dark:bg-black text-black dark:text-white relative`}>  
           <MantineProvider defaultColorScheme="light" >
             <ShoelaceSetup>
               <Navbar />
@@ -35,6 +34,7 @@ export default function RootLayout({
               <Footer />
             </ShoelaceSetup>
           </MantineProvider>
+          <SpeedInsights />
       </body>
     </html>
   );

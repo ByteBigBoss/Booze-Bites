@@ -1,27 +1,27 @@
 export const Site = {
-    siteName: "OmniUI",
+    siteName: "Booze Bites",
     gitHubUser: "@ByteBigBoss",
-    gitHubUrl: "https://github.com/ByteBigBoss/OmniUI",
+    gitHubUrl: "https://github.com/ByteBigBoss/Booze-Bites",
     author:"Nethmina",
     authorPortfolio:"#",
-    org:"ImaginecoreX",
+    org:"CL SOLUTIONS",
     orgUrl:"https://company.imcrox.com"
 }
 
 export const SiteMetadata = {
-    title: "Next.js OmniUI Starter Kit",
-    description: "your-site-description",
-    author: "your-name",
+    title: "Booze Bites",
+    description: "Spice up your weekend with Booze Bites!",
+    author: "Nethmina Sandaruwan",
     image: "@/app/favicon.ico",
-    siteUrl: "https://your-site-url.com",
-    githubUsername: "your-github-username",
-    twitterUsername: "@your-twitter-username",
-    ogSiteName: "your-og-site-name",
-    ogTitle: "your-og-title",
-    ogDescription: "your-og-description",
+    siteUrl: "https://boozebites.co.nz/",
+    githubUsername: "ByteBigBoss",
+    twitterUsername: "@boozebites",
+    ogSiteName: "Cody Lanka",
+    ogTitle: "CL SOFTWARE SOLUTION",
+    ogDescription: "",
     ogImage: "/favicon.ico",
     icon: "@/app/favicon.ico",
-    legalName: "your-legal-name",
+    legalName: "Nethmina Sandaruwan",
 };
 
 export const PageMetadata = {
