@@ -44,7 +44,7 @@ const config = {
         mutedGrey: "var(--muted-grey)",
         metallicGold: "var(--metallic-gold)",
         burntOrange: "var(--burnt-orange)",
-        chillPaper: "var(--chill-papepr)",
+        chillPaper: "var(--chill-paper)",
         softCream: "var(--soft-cream)",
 
         border: "hsl(var(--border))",

@@ -27,7 +27,7 @@ export default function RootLayout({
         <ColorSchemeScript defaultColorScheme="light" />
       </head>
       <body className={`${poppins.className} antialiased bg-white dark:bg-black text-black dark:text-white relative`}>  
-          <MantineProvider defaultColorScheme="light" >
+          <MantineProvider forceColorScheme="light" defaultColorScheme="light" >
             <ShoelaceSetup>
               <Navbar />
               {children}
