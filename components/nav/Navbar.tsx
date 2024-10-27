@@ -4,8 +4,6 @@ import WrapperBody from '../wrappers/WrapperBody'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion } from "framer-motion";
-import { Button } from '@nextui-org/react'
-import ThemeSwitch from '../theme/theme-switch'
 import { Burger, Drawer } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks';
 import { Site } from '@/config/site'
@@ -14,6 +12,7 @@ import { quando } from '@/lib/fonts'
 
 const Navbar = () => {
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [currentPath, setCurrentPath] = useState("");
     const [scrollPosition, setScrollPosition] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
